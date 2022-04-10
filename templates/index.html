@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Blog App<h1>
+<a href="/create" role="botton">新規作成画面</a>
+{% for post in posts %}
+<article>
+    <h2>{{ post.title }}</h2>
+    <a href="/{{post.id}}/update" role="button">編集</a>
+    <a href="/{{post.id}}/delete" role="button" onclick="return confirm('削除します。よろしいですか？')">削除</a>
+    <p>{{ post.body }}</p>
+    <p>{{ post.created_at }}</p>
+</article>
+{% endfor %}
+
+{% endblock %}
