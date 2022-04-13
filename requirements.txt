@@ -71,7 +71,6 @@ glob2==0.7
 gmpy2==2.0.8
 greenlet==1.1.2
 gunicorn==20.1.0
-h5py==3.2.1
 HeapDict==1.0.1
 html5lib==1.1
 idna==3.2
