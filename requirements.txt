@@ -15,7 +15,6 @@ PyAutoGUI==0.9.48
 PyGetWindow==0.0.9
 PyMsgBox==1.0.9
 pyobjc==8.4.1
-pyobjc-core==8.4.1
 pyobjc-framework-Accessibility==8.4.1
 pyobjc-framework-Accounts==8.4.1
 pyobjc-framework-AddressBook==8.4.1
