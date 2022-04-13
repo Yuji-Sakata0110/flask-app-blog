@@ -99,9 +99,6 @@ lazy-object-proxy==1.6.0
 libarchive-c==2.9
 locket==0.2.1
 lxml==4.6.3
-MarkupSafe==2.1.1
-matplotlib==3.4.3
-matplotlib-inline==0.1.2
 mccabe==0.6.1
 mistune==0.8.4
 mock==4.0.3
